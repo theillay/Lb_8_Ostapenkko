@@ -11,7 +11,7 @@ int main() {
     cin >> diameter;
     double pi = 3.14159;
     double perimeter = pi * diameter;
-    double area = pi * diameter * diameter / 4;
+    double area = pi * diameter * 2;
 
     cout << "Довжина кола: " << perimeter << endl;
     cout << "Площа круга: " << area << endl;
